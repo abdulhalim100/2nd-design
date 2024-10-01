@@ -56,7 +56,6 @@
     .dowenload-btn button {
         padding: 21px 176px;
         margin-top: 50px;
-        border-radius: 6px;
     }
 
     .qr-code img {
@@ -65,6 +64,10 @@
 
     .qr-code {
         margin-top: 60px;
+    }
+
+    .container-fluid {
+        padding: 40px 0px;
     }
 }
 
@@ -78,6 +81,10 @@
 
     .hero-title p {
         font-size: 17px;
+    }
+
+    .dowenload-btn button {
+        padding: 21px 109px;
     }
 
 }

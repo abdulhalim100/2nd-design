@@ -116,7 +116,7 @@ ul.nav-wrapper a:hover {
     align-items: center;
 }
 
-.smart-url, .cv {
+.smart-url {
     display: flex;
     align-items: center;
     position: relative;
@@ -129,7 +129,7 @@ ul.nav-wrapper a:hover {
     overflow: hidden;
 }
 
-.smart-url:hover, .cv:hover::before {
+.smart-url:hover::before {
     width: 100%;
 }
 
@@ -137,12 +137,25 @@ img.universal {
     width: 25px;
 }
 
-.smart-url a, .cv a {
+.smart-url a {
     color: var(--white);
     z-index: 1;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.smart-url::before {
+    left: 0;
+    content: "";
+    background: linear-gradient(to right, #7922E6 0%, #9D32FA 100%);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    transition: .5s;
+    bottom: 0;
+    top: 0;
 }
 
 h3.qr-title {
@@ -217,17 +230,5 @@ p.qr-genarat {
 
 }
 
-.cv::before {
-    left: 0;
-    content: "";
-    background: linear-gradient(to right, #7922E6 0%, #9D32FA 100%);
-    width: 0;
-    height: 100%;
-    position: absolute;
-    z-index: 0;
-    transition: .3s;
-    bottom: 0;
-    top: 0;
-}
 
 /* ============Qr Section Close ============================================================================== */
