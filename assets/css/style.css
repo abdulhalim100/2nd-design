@@ -119,20 +119,30 @@ ul.nav-wrapper a:hover {
 .smart-url, .cv {
     display: flex;
     align-items: center;
+    position: relative;
     gap: 14px;
     padding: 6px 29px 9px 13px;
     width: fit-content;
     border-radius: 4px;
     margin-bottom: 20px;
     transition: 0.3s;
+    overflow: hidden;
 }
 
-.smart-url:hover, .cv:hover {
-    background: linear-gradient(to right, #7922E6 0%, #9D32FA 100%);
+.smart-url:hover, .cv:hover::before {
+    width: 100%;
+}
+
+img.universal {
+    width: 25px;
 }
 
 .smart-url a, .cv a {
     color: var(--white);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 h3.qr-title {
@@ -205,6 +215,19 @@ p.qr-genarat {
     border-radius: 6px;
     background: linear-gradient(to right, #7922E6 0%, #9D32FA 100%);
 
+}
+
+.cv::before {
+    left: 0;
+    content: "";
+    background: linear-gradient(to right, #7922E6 0%, #9D32FA 100%);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    transition: .3s;
+    bottom: 0;
+    top: 0;
 }
 
 /* ============Qr Section Close ============================================================================== */
