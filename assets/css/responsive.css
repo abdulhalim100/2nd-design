@@ -35,6 +35,10 @@
 /* Scree Size 992 Section Close============================================================================================================ */
 
 @media screen and (max-width:992px) {
+    body {
+        padding: 0px 5px;
+    }
+
     .col-3.logo a img {
         width: 100%;
     }
@@ -69,6 +73,19 @@
     .container-fluid {
         padding: 40px 0px;
     }
+
+    .serial {
+        display: none;
+    }
+
+    .col-md-6.card-right-side {
+        padding: 10px;
+    }
+
+    .col-md-6.card-left-side {
+        padding: 10px;
+    }
+
 }
 
 /* Scree Size 768 Section Close============================================================================================================ */
@@ -85,6 +102,32 @@
 
     .dowenload-btn button {
         padding: 21px 109px;
+    }
+
+    h4.card-title {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .row.smart-card-inner {
+        margin-bottom: 40px;
+    }
+
+    .smart-card-title h1 {
+        margin: 50px 0px 30px 0px;
+    }
+
+    p.card-para {
+        text-align: justify;
+    }
+
+    .big-size {
+        display: none;
+    }
+
+    .small-size {
+        display: block;
     }
 
 }
