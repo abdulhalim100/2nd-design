@@ -109,7 +109,7 @@
     }
 
     .smart-card-title h1 {
-        margin: 70px 0px 45px;
+        margin: 50px 5px 10px 5px;
     }
 
     .security-sec {
@@ -197,6 +197,11 @@
     .col-md-4.worke-card {
         margin-bottom: 20px;
     }
+
+    .container-fluid {
+        background: var(--qr-back-color);
+        padding: 55px 10px;
+    }
 }
 
 /* Scree Size 576 Section Close============================================================================================================ */
@@ -228,4 +233,7 @@
         padding: 0px 5px;
     }
 
+    .smart-url {
+        margin-bottom: 5px;
+    }
 }
