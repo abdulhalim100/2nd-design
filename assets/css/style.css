@@ -334,7 +334,7 @@ img.serial1 {
     height: 4px;
     bottom: 0px;
     top: 108%;
-    left: 0;
+    left: 2px;
     right: 0;
 }
 
@@ -484,7 +484,7 @@ img.serial1 {
 }
 
 /* ==========Security Section Close================================================================*/
-/* ==========Security Section Close================================================================*/
+/* ==========-Plan & Price Section Close================================================================*/
 .plan-title {
     padding: 62px 10px 102px 10px;
 }
@@ -593,6 +593,83 @@ button.add-cart {
 .plan-card-down {
     background: #ffffff;
     padding: 30px 35px;
+}
+
+/* ==========-Plan & Price Section Close================================================================*/
+/* ==========Security Section Close================================================================*/
+.card-work {
+    position: relative;
+}
+
+.card-work-title {
+    position: relative;
+}
+
+.card-work-title h2 {
+    font-size: var(--title-fs);
+    color: #323232;
+    font-weight: 700;
+    margin: 67px 5px;
+    text-align: center;
+}
+
+.card-work-title h2::before {
+    content: "";
+    position: absolute;
+    background: var(--main-color);
+    width: 15%;
+    height: 4px;
+    top: 35%;
+    left: 42%;
+}
+
+.card-work-title p {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.work-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px 56px 10px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    margin: 35px 0px;
+}
+
+.work-card h3 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 16px 0px;
+    transition: .3s;
+}
+
+.work-card-icon {
+    padding: 10px;
+    border-radius: 100px;
+    transition: .3s;
+
+}
+
+.work-card-para {
+    transition: .3s;
+    text-align: center;
+}
+
+.work-card:hover {
+    background: var(--main-color);
+}
+
+.work-card:hover .work-card-icon {
+    background: var(--white);
+}
+
+.work-card:hover .work-card-para, .work-card:hover .work-card-title {
+    color: var(--white);
 }
 
 /* ==========Security Section Close================================================================*/

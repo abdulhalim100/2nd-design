@@ -192,5 +192,8 @@
         left: 75%;
     }
 
+    .project-inner-title {
+        padding: 0px 5px;
+    }
 
 }

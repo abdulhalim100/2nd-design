@@ -25,9 +25,9 @@ img {
 }
 
 body {
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--montserrat);
-    line-height: 130%;
+    line-height: 180%;
 
 }
 
