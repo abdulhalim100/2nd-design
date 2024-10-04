@@ -1,3 +1,4 @@
+/* ==========Navigation Section Start======================================================*/
 .col-9.nav-content {
     display: flex;
     justify-content: flex-end;
@@ -54,6 +55,9 @@ ul.nav-wrapper a:hover {
     background: rgb(255, 255, 255);
 }
 
+/* ==========Navigation Section Close======================================================*/
+/* ==========Hero Section Start============================================================*/
+
 .hero-img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,6 +96,9 @@ ul.nav-wrapper a:hover {
     margin-top: 20px;
     text-shadow: rgba(0, 0, 0, 0.145) 0px 4px 4px;
 }
+
+/* ==========Hero Section Close============================================================*/
+/* ==========Qr Section Start============================================================*/
 
 .container-fluid {
     background: var(--qr-back-color);
@@ -207,15 +214,23 @@ p.qr-genarat {
     align-items: center;
 }
 
+.dowenload-btn {
+    width: 100%;
+}
+
 .dowenload-btn button {
+    width: 100%;
     color: var(--white);
-    padding: 21px 77px;
+    padding: 21px;
     font-weight: 700;
     margin-top: 50px;
     border: none;
     border-radius: 6px;
     background: linear-gradient(to right, rgb(121, 34, 230) 0%, rgb(157, 50, 250) 100%);
 }
+
+/* ==========Qr Section Close============================================================*/
+/* ==========Smart Card Section Start============================================================*/
 
 .smart-card {
     position: relative;
@@ -282,3 +297,302 @@ img.serial1 {
 .card-p2 {
     padding: 10px 10px 10px 75px;
 }
+
+/* ==========Smart Card Section Close============================================================*/
+/* ==========Project Section Start================================================================*/
+
+.row.project-section {
+    align-items: center;
+}
+
+.project-inner-title h6 {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to right, #4355B4 0%, #FA00FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.project-inner-title {
+    position: relative;
+}
+
+.project-inner-title h2 {
+    font-size: var(--title-fs);
+    color: #323232;
+    font-weight: 700;
+    margin-bottom: 67px;
+}
+
+.project-inner-title h2::before {
+    content: "";
+    position: absolute;
+    background: var(--main-color);
+    width: 21%;
+    height: 4px;
+    bottom: 0px;
+    top: 88px;
+    left: 0;
+    right: 0;
+}
+
+.project-count-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+.project-count-inner h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.project-count-inner p {
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 600;
+    color: #969696;
+}
+
+.project-count {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px 0px 20px 25px;
+    border-radius: 12px;
+    border: 2px solid #F2F2F2;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 27px 49px #00000010;
+}
+
+/* ==========Project Section Close================================================================*/
+/* ==========Security Section Start================================================================*/
+.security-title {
+    position: relative;
+}
+
+.security-sec {
+    padding: 100px 0px 60px 0px;
+}
+
+.security-title h6 {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to right, #4355B4 0%, #FA00FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.security-title h2 {
+    font-size: var(--title-fs);
+    color: #323232;
+    font-weight: 700;
+    margin-bottom: 67px;
+    text-align: center;
+}
+
+.security-title h2::before {
+    content: "";
+    position: absolute;
+    background: var(--main-color);
+    width: 14%;
+    height: 4px;
+    top: 117%;
+    left: 43%;
+}
+
+.security-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 60px 20px 44px 20px;
+    border-radius: 20px;
+    border: 2px solid #F2F2F2;
+    box-shadow: 0px 14px 49px #6C54EA06;
+    transition: .3s;
+}
+
+
+.security-card:hover.icon-border {
+    border: 15px solid #FA00FF;
+
+}
+
+.security-card:hover {
+    background: var(--main-color);
+}
+
+.security-card:hover .security-card-title, .security-card:hover .security-card-para {
+    color: var(--white);
+
+
+}
+
+.security-card:hover .security-card-icon {
+    border: 5px solid var(--white);
+    outline: 5px solid #6C54EA;
+}
+
+.security-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94px;
+    position: absolute;
+    top: -59px;
+    border-radius: 100px;
+    border: none;
+    transition: .3s;
+}
+
+.security-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #323232;
+    transition: .3s;
+}
+
+.security-card-para {
+    text-align: center;
+    line-height: 180%;
+    font-size: 16px;
+    color: #969696;
+    margin-top: 10px;
+    transition: .3s;
+
+}
+
+
+
+.col-lg-4.col-md-6 {
+    margin-top: 85px;
+}
+
+/* ==========Security Section Close================================================================*/
+/* ==========Security Section Close================================================================*/
+.plan-title {
+    padding: 62px 10px 102px 10px;
+}
+
+.plan-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-card {
+    box-shadow: 5px 5px 5px #00000010;
+}
+
+.plan-title span {
+    background: linear-gradient(to right, #7922E6 0%, #9D32FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.plan-title p {
+    text-align: center;
+    font-size: 16px;
+    color: #162B60;
+}
+
+.plan-wrapper {
+    background: url(../Icon/19.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plan-card-top {
+    padding: 30px 35px;
+    background: #F8F8F8;
+}
+
+.plan-price-sec {
+    background: #D6E7F3;
+    padding-bottom: 89px;
+}
+
+.card-dynemic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.card-dynemic span {
+    background: #ffffff;
+    padding: 5px 0px;
+    border-radius: 5px;
+    width: 37%;
+    text-align: center;
+    font-size: 14px;
+    color: #162B60;
+}
+
+.card-dynemic p {
+    font-size: 16px;
+    color: #162B60;
+}
+
+button.add-cart {
+    font-weight: 700;
+    color: var(--white);
+    padding: 7px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    background: linear-gradient(to right, rgb(121, 34, 230) 0%, rgb(157, 50, 250) 100%);
+}
+
+.plan-card-title p {
+    font-size: 14px;
+    color: #162B60;
+    margin: 20px 0px 15px 0px;
+}
+
+.plan-card-title h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #162B60;
+    line-height: 200%;
+}
+
+.plan-check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.plan-check img {
+    width: 7%;
+}
+
+.plan-check span {
+    font-size: 14px;
+}
+
+.plan-card-down {
+    background: #ffffff;
+    padding: 30px 35px;
+}
+
+/* ==========Security Section Close================================================================*/

@@ -29,16 +29,18 @@
         top: -8%;
         left: 85%;
     }
+
+    .plan-check img {
+        width: 4%;
+    }
+
+
 }
 
 
 /* Scree Size 992 Section Close============================================================================================================ */
 
 @media screen and (max-width:992px) {
-    body {
-        padding: 0px 5px;
-    }
-
     .col-3.logo a img {
         width: 100%;
     }
@@ -57,9 +59,13 @@
         margin-top: 30px;
     }
 
+    .dowenload-btn {
+        width: 75%;
+    }
+
     .dowenload-btn button {
-        padding: 21px 176px;
         margin-top: 50px;
+        border-radius: 6px;
     }
 
     .qr-code img {
@@ -70,22 +76,29 @@
         margin-top: 60px;
     }
 
+    .plan-title {
+        padding: 45px 10px;
+    }
+
+    .plan-card {
+        margin-bottom: 30px;
+    }
+
+    .plan-price-sec {
+        padding-bottom: 20px;
+    }
+
+    .plan-check img {
+        width: 6%;
+    }
+
     .container-fluid {
-        padding: 40px 0px;
+        padding: 65px 0px;
     }
 
-    .serial {
-        display: none;
+    .smart-card-title h1 {
+        margin: 70px 0px 45px;
     }
-
-    .col-md-6.card-right-side {
-        padding: 10px;
-    }
-
-    .col-md-6.card-left-side {
-        padding: 10px;
-    }
-
 }
 
 /* Scree Size 768 Section Close============================================================================================================ */
@@ -100,26 +113,26 @@
         font-size: 17px;
     }
 
-    .dowenload-btn button {
-        padding: 21px 109px;
+
+    .plan-price-sec {
+        padding-bottom: 10px;
     }
 
-    h4.card-title {
-        text-align: center;
-        margin-top: 30px;
-        font-size: 25px;
+    .serial {
+        display: none;
     }
 
-    .row.smart-card-inner {
-        margin-bottom: 40px;
+    .plan-check img {
+        width: 4%;
     }
 
-    .smart-card-title h1 {
-        margin: 50px 0px 30px 0px;
+    .project-inner-title {
+        margin-top: 40px;
     }
 
-    p.card-para {
-        text-align: justify;
+    .project-inner-title h2::before {
+        bottom: 0px;
+        top: 130px;
     }
 
     .big-size {
@@ -130,6 +143,9 @@
         display: block;
     }
 
+    .card-p2, .card-p1 {
+        padding: 10px;
+    }
 }
 
 /* Scree Size 576 Section Close============================================================================================================ */
@@ -143,4 +159,7 @@
         font-size: 27px;
     }
 
+    .project-inner-title h2 {
+        font-size: 30px;
+    }
 }
