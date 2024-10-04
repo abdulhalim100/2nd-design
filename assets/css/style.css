@@ -102,7 +102,7 @@ ul.nav-wrapper a:hover {
 
 .container-fluid {
     background: var(--qr-back-color);
-    padding: 85px 0px;
+    padding: 85px 10px;
 }
 
 .qr-wrapper {
@@ -502,6 +502,7 @@ img.serial1 {
 .plan-title span {
     background: linear-gradient(to right, #7922E6 0%, #9D32FA 100%);
     -webkit-background-clip: text;
+
     -webkit-text-fill-color: transparent;
 }
 
@@ -597,29 +598,26 @@ button.add-cart {
 
 /* ==========-Plan & Price Section Close================================================================*/
 /* ==========Security Section Close================================================================*/
-.card-work {
+
+.card-work-head {
     position: relative;
 }
 
-.card-work-title {
-    position: relative;
-}
-
-.card-work-title h2 {
+.card-work-head h2 {
     font-size: var(--title-fs);
     color: #323232;
     font-weight: 700;
-    margin: 67px 5px;
+    margin: 50px 5px 30px 5px;
     text-align: center;
 }
 
-.card-work-title h2::before {
+.card-work-head h2::before {
     content: "";
     position: absolute;
     background: var(--main-color);
     width: 15%;
     height: 4px;
-    top: 35%;
+    bottom: -16px;
     left: 42%;
 }
 
@@ -630,14 +628,14 @@ button.add-cart {
 }
 
 .work-card {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 40px 10px 56px 10px;
+    padding: 21px 10px 16px 10px;
     border: 2px solid var(--main-color);
     border-radius: 10px;
-    margin: 35px 0px;
 }
 
 .work-card h3 {
@@ -646,6 +644,7 @@ button.add-cart {
     text-transform: uppercase;
     margin: 16px 0px;
     transition: .3s;
+    text-align: center;
 }
 
 .work-card-icon {
@@ -670,6 +669,10 @@ button.add-cart {
 
 .work-card:hover .work-card-para, .work-card:hover .work-card-title {
     color: var(--white);
+}
+
+.row.work-card-wrapper {
+    margin: 35px 0px;
 }
 
 /* ==========Security Section Close================================================================*/
