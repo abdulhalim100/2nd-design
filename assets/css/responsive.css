@@ -133,8 +133,13 @@
         padding: 25px 10px 35px 10px;
     }
 
+    .trust-title-para p {
+        margin-top: -15px;
+    }
 
-
+    .trust-section {
+        padding: 30px 0px;
+    }
 
 }
 

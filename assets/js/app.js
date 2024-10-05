@@ -34,4 +34,18 @@
         },
       },
     });
+    var swiper = new Swiper(".mySwiper", {
+
+      loop:tue,
+      autoplay:tre,
+
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+
 
