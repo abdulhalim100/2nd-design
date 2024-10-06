@@ -141,6 +141,25 @@
         padding: 30px 0px;
     }
 
+    .first, .sceond, .third, .forth {
+        margin-bottom: 30px;
+    }
+
+    .sceond {
+        padding-left: 10%;
+    }
+
+    .forth {
+        padding-left: 10%;
+    }
+
+    .footer-logo img {
+        width: 60%;
+    }
+
+    footer {
+        padding: 35px 0px;
+    }
 }
 
 /* Scree Size 768 Section Close============================================================================================================ */
@@ -207,6 +226,16 @@
         background: var(--qr-back-color);
         padding: 55px 10px;
     }
+
+    .sceond {
+        padding-left: 10px;
+    }
+
+    .forth {
+        padding-left: 10px;
+    }
+
+
 }
 
 /* Scree Size 576 Section Close============================================================================================================ */
@@ -241,4 +270,6 @@
     .smart-url {
         margin-bottom: 5px;
     }
+
+
 }

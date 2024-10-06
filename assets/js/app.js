@@ -34,13 +34,13 @@
         },
       },
     });
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new swiper(".mySwiper", {
 
       loop:tue,
       autoplay:tre,
 
-      slidesPerView: 4,
-      spaceBetween: 30,
+      slidesPerView: 1,
+      spaceBetween: 100,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
