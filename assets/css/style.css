@@ -843,4 +843,130 @@ h3.work-card-title {
 
 /* ==========Quary Section Close================================================================*/
 /* ==========Blog Section Start================================================================*/
+.card-title-img img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.blog-card-title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    /* margin: 10px 0px; */
+}
+
+.blog-card-title p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #5A5A5A;
+    line-height: 150%;
+}
+
+.read-more-btn a button {
+    border: none;
+    padding: 2px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--white);
+    background: linear-gradient(to right, rgb(121, 34, 230) 0%, rgb(157, 50, 250) 100%);
+    margin: 17px 0px 12px 0px;
+}
+
+.view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 20px 10px;
+}
+
+.view-count span {
+    font-size: 15px;
+    color: #3A3A3A;
+    margin-left: 3px;
+}
+
+.post-date {
+    font-size: 15px;
+    color: #3A3A3A;
+
+}
+
+.blog-card {
+    border-radius: 16px;
+    box-shadow: 0px 0px 15px 8px #00000007;
+    margin-top: 30px;
+}
+
+.blog-card-title {
+    padding: 10px;
+}
+
+.blog-wrapper {
+    margin-top: 30px;
+}
+
 /* ==========Blog Section Close================================================================*/
+/* ==========Footer Section Start================================================================*/
+footer {
+    background: #0C111D;
+    padding: 75px 0px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer-logo p {
+    color: var(--white);
+    margin-top: 30px;
+}
+
+.footer-link a p {
+    color: var(--white);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.sign-up button {
+    border: none;
+    padding: 10px 38px;
+    border-radius: 34px;
+    background: linear-gradient(to right, rgb(121, 34, 230) 0%, rgb(157, 50, 250) 100%);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+h3.follow-link {
+    color: var(--white);
+    font-size: 26px;
+}
+
+.facebook, .twitter, .in, .instragram {
+    background: var(--white);
+    padding: 5px 16px;
+    border-radius: 100px;
+}
+
+.instragram {
+    padding: 5px 14px;
+}
+
+.in {
+    padding: 5px 13px;
+}
+
+.twitter {
+    padding: 5px 13px;
+}
+
+p.reserve {
+    font-size: 16px;
+    color: var(--white);
+    margin-top: 40px;
+}
+
+/* ==========Footer Section Close================================================================*/
