@@ -5,7 +5,23 @@
 @media screen and (max-width:1200px) {
 
     body {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .row.navi-wrapper {
+        padding: 18px 0px;
+    }
+
+    ul.nav-wrapper a {
+        font-size: 16px;
+    }
+
+    .sign-up-btn button {
+        padding: 9px 19px;
+    }
+
+    .login-btn button {
+        padding: 6px 25px;
     }
 
     .hero-title h1 {
@@ -14,10 +30,6 @@
 
     .hero-inner {
         width: 70%;
-    }
-
-    ul.nav-wrapper {
-        display: none;
     }
 
     .qr-code img {
@@ -29,6 +41,16 @@
         top: -11%;
         left: 84%;
     }
+
+    .project-count {
+        gap: 15px;
+        padding: 10px;
+    }
+
+
+
+
+
 
     .plan-check img {
         width: 4%;
@@ -54,7 +76,26 @@
 @media screen and (max-width:992px) {
     :root {
         --title-fs: 30px;
+    }
 
+    body {
+        font-size: 14px;
+    }
+
+    .row.navi-wrapper {
+        padding: 14px 0px;
+    }
+
+    .sign-up-btn button {
+        padding: 6px 19px;
+    }
+
+    .login-btn button {
+        padding: 4px 25px;
+    }
+
+    ul.nav-wrapper {
+        display: none;
     }
 
     .col-3.logo a img {
@@ -62,17 +103,17 @@
     }
 
     .hero-title h1 {
-        font-size: 50px;
+        font-size: 42px;
     }
 
     .with-logo {
-        padding: 20px 30px;
-        top: -7%;
-        left: 75%;
+        padding: 22px 27px;
+        top: -6%;
+        left: 77%;
     }
 
     h3.qr-title {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .dowenload-btn {
@@ -81,7 +122,6 @@
 
     .dowenload-btn button {
         margin-top: 50px;
-        border-radius: 6px;
     }
 
     .qr-code img {
@@ -91,6 +131,30 @@
     .qr-code {
         margin-top: 60px;
     }
+
+    p.qr-genarat {
+        font-size: 18px;
+        padding: 19px 40px 19px 19px;
+        margin-bottom: 30px;
+    }
+
+    .row.smart-card-inner {
+        margin-bottom: 10px;
+    }
+
+    .project-inner-title h6 {
+        font-size: 14px;
+    }
+
+    .project-count {
+        gap: 15px;
+        padding: 15px;
+    }
+
+
+
+
+
 
     .plan-title {
         padding: 30px 10px;
@@ -166,13 +230,87 @@
 
 @media screen and (max-width:768px) {
 
+    :root {
+        --title-fs: 25px;
+    }
+
+
+    body {
+        font-size: 12px;
+    }
+
+    .row.navi-wrapper {
+        padding: 12px 0px;
+    }
+
+    .col-9.nav-content {
+        gap: 20px;
+    }
+
+    .sign-up-btn button {
+        padding: 5px 18px;
+    }
+
+    .login-btn button {
+        padding: 3px 23px;
+    }
+
     .hero-title h1 {
-        font-size: 37px;
+        font-size: 30px;
     }
 
     .hero-title p {
-        font-size: 17px;
+        font-size: 14px;
+        margin: 0px;
     }
+
+    p.qr-genarat {
+        font-size: 14px;
+    }
+
+    h3.qr-title {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    p.qr-para {
+        font-size: 14px;
+        margin: 5px 0px 18px;
+    }
+
+    p.qr-genarat {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .qr-code {
+        margin-top: 40px;
+    }
+
+    .dowenload-btn button {
+        margin-top: 40px;
+    }
+
+    .smart-card-title h1 {
+        margin: 27px 5px 10px 5px;
+        font-size: 25px;
+    }
+
+    h4.card-title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .project-count-inner h3 {
+        font-size: 25px;
+    }
+
+    .project-count-inner p {
+        font-size: 13px;
+    }
+
+
+
 
 
     .plan-price-sec {
@@ -205,13 +343,12 @@
 
     .project-count-first {
         gap: 10px;
-        margin-bottom: 0px;
     }
 
     .with-logo {
-        padding: 15px 25px;
-        top: -10%;
-        left: 74%;
+        padding: 15px 16px;
+        top: -7%;
+        left: 76%;
     }
 
     .work-card {
@@ -223,7 +360,6 @@
     }
 
     .container-fluid {
-        background: var(--qr-back-color);
         padding: 55px 10px;
     }
 
@@ -241,26 +377,86 @@
 /* Scree Size 576 Section Close============================================================================================================ */
 
 @media screen and (max-width:576px) {
+
+    :root {
+        --title-fs: 20px;
+    }
+
+
+    body {
+        font-size: 10px;
+        line-height: 210%;
+
+    }
+
     .col-3.logo a img {
         width: 130%;
     }
 
+    .col-9.nav-content {
+        gap: 15px;
+    }
+
     .hero-title h1 {
-        font-size: 27px;
+        font-size: 20px;
+    }
+
+    .container-fluid {
+        padding: 20px 10px;
+    }
+
+    img.universal {
+        width: 20px;
+    }
+
+    .dowenload-btn button {
+        margin-top: 25px;
+        padding: 15px;
+    }
+
+    .qr-wrapper {
+        padding: 30px 30px;
+    }
+
+    .smart-card-title h1 {
+        margin: 20px 5px 10px 5px;
+        font-size: 20px;
+    }
+
+    h4.card-title {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .project-inner-title h2 {
-        font-size: 30px;
+        margin-bottom: 20px;
     }
+
+    .project-count-inner h3 {
+        font-size: 20px;
+    }
+
+    .project-count-inner p {
+        font-size: 10px;
+    }
+
+    .project-count {
+        padding: 10px;
+    }
+
+
+
+
 
     .plan-title h1 {
         font-size: 28px;
     }
 
     .with-logo {
-        padding: 4px 15px;
+        padding: 10px 13px;
         top: -10%;
         left: 75%;
+        font-size: 10px;
     }
 
     .project-inner-title {
