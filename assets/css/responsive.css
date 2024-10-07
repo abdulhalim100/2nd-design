@@ -337,7 +337,7 @@
     }
 
     .plan-check img {
-        width: 4%;
+        width: 5%;
     }
 
     .project-inner-title {
@@ -361,7 +361,7 @@
     }
 
     .with-logo {
-        padding: 15px 16px;
+        padding: 15px 15px;
         top: -7%;
         left: 76%;
     }
@@ -544,10 +544,11 @@
     }
 
     .with-logo {
-        padding: 10px 13px;
+        padding: 14px 15px;
         top: -10%;
         left: 75%;
         font-size: 10px;
+        line-height: 180%;
     }
 
     .project-inner-title {

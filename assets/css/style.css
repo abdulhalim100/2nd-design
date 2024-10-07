@@ -576,7 +576,7 @@ button.add-cart {
 
 .plan-check {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: flex-start;
     gap: 10px;
     margin-top: 5px;
