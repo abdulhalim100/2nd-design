@@ -1,4 +1,10 @@
 /* ==========Navigation Section Start======================================================*/
+.navigation {
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.145) 0px 4px 4px;
+
+}
+
 .col-9.nav-content {
     display: flex;
     justify-content: flex-end;
@@ -23,7 +29,7 @@ ul.nav-wrapper {
     width: 50%;
 }
 
-ul.nav-wrapper a {
+ul.nav-wrapper li a {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -31,7 +37,7 @@ ul.nav-wrapper a {
     transition: 0.3s;
 }
 
-ul.nav-wrapper a:hover {
+ul.nav-wrapper li a:hover {
     color: var(--main-color);
 }
 
@@ -583,7 +589,7 @@ button.add-cart {
 }
 
 .plan-check img {
-    width: 7%;
+    width: 15px;
 }
 
 .plan-check span {
@@ -934,20 +940,24 @@ h3.follow-link {
 
 .facebook, .twitter, .in, .instragram {
     background: var(--white);
-    padding: 5px 16px;
     border-radius: 100px;
 }
 
-.instragram {
-    padding: 5px 14px;
+.facebook a img {
+    padding: 12px 16px;
+
 }
 
-.in {
-    padding: 5px 13px;
+.instragram a img {
+    padding: 13px 13px;
 }
 
-.twitter {
-    padding: 5px 13px;
+.in a img {
+    padding: 13px 13px;
+}
+
+.twitter a img {
+    padding: 12px 12px;
 }
 
 p.reserve {
