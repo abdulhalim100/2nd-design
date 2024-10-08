@@ -601,5 +601,17 @@
         margin-bottom: 5px;
     }
 
+    .swiper-slide.swiper-slide-active {
+        transform: scale(1);
+    }
+
+    .swiper-slide.swiper-slide-next,
+    .swiper-slide.swiper-slide-prev {
+        transform: scale(1);
+    }
+
+    .swiper.sayslideritem {
+        padding: 50px 0;
+    }
 
 }

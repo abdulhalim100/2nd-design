@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('/assets/font/segoe-ui-4.css');
 
 * {
@@ -9,7 +10,7 @@
 }
 
 :root {
-    --montserrat: "Montserrat", sans-serif;
+    --montserrat: "montserrat", sans-serif;
     --segoe: 'Segoe UI', sans-serif;
     --main-color: #7C23E8;
     --font-color: #000000;
